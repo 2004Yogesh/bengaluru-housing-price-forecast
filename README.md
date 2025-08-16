@@ -1,29 +1,87 @@
-# Bangalore-Housing-Price-Prediction
+🏡 Bangalore Housing Price Prediction
 
-![ML](https://img.shields.io/badge/ML-Regression-blue.svg) 
+A Machine Learning Project to predict housing prices in Bangalore using supervised learning techniques. The project includes data preprocessing, model building, and deployment as a web application.
 
-## Project Objectives :
-The objective of the project is to create a machine learning model. We are doing a supervised learning and our aim is to do predictive analysis to predict housing price.
+📌 Project Objectives
 
-## Data Collection :
-The dataset is obtained from Kaggle. 
+Build a supervised ML model to predict housing prices.
 
-Link: https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
+Perform predictive analysis using regression techniques.
 
-## Modelling :
-The analysis and model creation can be found in the .ipynb file. 
+Provide an interactive web application for end-users to estimate housing prices based on features.
 
-The main packages used are numpy, pandas, matplotlib, seaborn and sklearn.  
+📂 Dataset
 
-## Deployemnt :
-The web app has been build using basic HTML, CSS, Javascript, Flask and Herkou.
+The dataset is sourced from Kaggle: Bengaluru House Price Data.
 
-Link: https://bangalore-house-pricing.herokuapp.com/
+It contains information such as location, size, total square feet, number of bathrooms, and price.
+
+⚙️ Tech Stack
+🔹 Machine Learning & Data Analysis
+
+Python
+
+Numpy, Pandas
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+🔹 Web Application & Deployment
+
+Flask
+
+HTML, CSS, JavaScript
+
+Deployment on Heroku
+
+Live Demo 👉 Bangalore Housing Price Prediction App
+
+📒 Project Workflow
+
+Data Preprocessing: Handling missing values, feature engineering, and outlier removal.
+
+Exploratory Data Analysis (EDA): Visualization of trends and correlations.
+
+Modeling:
+
+Train ML models (Linear Regression, Decision Tree, Random Forest).
+
+Evaluate performance with metrics like R² Score & RMSE.
+
+Deployment: Integrated with Flask and deployed on Heroku.
+
+🚀 Installation & Usage
+1️⃣ Clone the Repository
+git clone https://github.com/2004Yogesh/bengaluru-housing-price-forecast.git
+cd Bangalore-Housing-Price-Prediction
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the Flask App
+python app.py
 
 
-![ML](Screenshots/BangaloreHousePricePredictionHeroku.JPG)
+App will be available at http://127.0.0.1:5000/
 
-## Future Scope :
-* Use multiple Algorithms
-* Optimize Flask app.py
-* Update the Front-End 
+📸 Screenshots
+🔹 Web App UI
+
+(Add your screenshots here, e.g., homepage and prediction page.)
+
+🔮 Future Scope
+
+✅ Implement multiple ML/DL algorithms for improved accuracy.
+
+✅ Optimize Flask app.py for performance.
+
+✅ Enhance frontend with modern UI (React/Bootstrap).
+
+✅ Containerize application using Docker for scalable deployment.
+
+🙌 Credits
+
+Dataset: Kaggle - Bengaluru House Price Data
+
+Inspiration & Learning: Open-source community
